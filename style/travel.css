@@ -2,7 +2,7 @@
     margin: 0px auto;
     padding-top: 10px;
 }
-
+/* Nav section */
 nav {
     display: flex;
     align-items: center;
@@ -24,6 +24,7 @@ nav li {
 }
 nav a{
     text-decoration: none;
+    color: black;
 }
 
 .nav-contain {
@@ -41,7 +42,7 @@ nav a{
 }
 
 .travel {
-    color: #FF5400;
+    color: #b83f03;
     font-size: 36px;
     font-style: normal;
     font-weight: 800;
@@ -50,4 +51,7 @@ nav a{
 
 .img {
     width: 50px;
+}
+.home{
+        color: salmon;
 }
