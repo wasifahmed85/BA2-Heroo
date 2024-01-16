@@ -102,21 +102,26 @@ main {
 
 .container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+
+}
+.pic{
+    width: 540px;
+height: 550px;
+flex-shrink: 0;
+border-radius: 16px;
 
 }
 
 .content {
-    width: 600px;
+    width: 750px;
 }
 
 .head {
     color: #131318;
     font-family: Mulish;
     font-size: 40px;
-    font-style: normal;
     font-weight: 800;
-    line-height: normal;
 }
 
 .primary {
@@ -125,11 +130,11 @@ main {
     border: 0px;
     border-radius: 5px;
     margin-top: 15px;
-    padding: 5px;
+    padding: 10px;
     text-align: center;
     font-family: Mulish;
     font-size: 20px;
-    font-weight: 800;
+    font-weight: 800px;
 }
 
 .parag {
@@ -210,6 +215,41 @@ main {
     margin-top: 20px;
     height: 200px;
     padding: 20px;
+}
+/* section 4 */
+.head1{
+    font-size: 40px;
+}
+.contents{
+    border: 2px solid red;
+    border-radius: 6px;
+    padding: 10px;
+    background: #FFF;;
+}
+.contents input{
+    background-color: #dfd7d7;
+    border: 0px;
+    color: rgb(187, 69, 69);
+    padding: 15px;
+    width: 350px;
+    border-radius: 8px;
+}
+.tag{
+    background:orangered ;
+    width: 250px;
+    padding: 10px;
+    color: white;
+    position: relative;
+   bottom: 150px;
+   left: 200px;
+   border-radius: 10px;
+   transform: rotate(-19.628deg);
+}
+#sub{
+    border-radius: 8px;
+background: #FF5400;
+font-size: 20px;
+color: white;
 }
 /* footer start */
 footer{
