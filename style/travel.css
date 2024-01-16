@@ -48,10 +48,36 @@ nav a{
     font-weight: 800;
     line-height: normal;
 }
-
 .img {
     width: 50px;
 }
 .home{
         color: salmon;
 }
+.contain{
+    text-align: center;
+    background-image: url("Group 13 (1) (1).png");
+    background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 1300px;
+     height: 400px;
+     margin-top: 50px;
+     margin-bottom: 80px;
+}
+.text{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.from input{
+    border: 0px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 40px;
+ }
+ .styles{
+    text-align: center;
+    background-color: #0a59a3;
+    color:#FFF;
+ }
